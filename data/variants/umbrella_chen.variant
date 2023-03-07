@@ -1,0 +1,31 @@
+{
+  "variantId": "umbrella_chen",
+  "hullId": "umbrella_chen",
+  "displayName": "Superheavy Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 27,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0003": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "chaingun",
+        "WS0004": "chaingun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

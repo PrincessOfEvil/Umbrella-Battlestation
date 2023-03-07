@@ -1,0 +1,15 @@
+{
+    "id":"umbrella_battlestation",
+    "name":"Umbrella Battlestation",
+    "author":"Princess of Evil",
+    "version":{
+        "major":0, 
+        "minor":1, 
+        "patch":"0"
+    },
+    "description":"Adds Yakumo.",
+    "gameVersion":"0.95.1a-RC6",
+    "totalConversion":false,
+    "dependencies": [
+    ]
+}
