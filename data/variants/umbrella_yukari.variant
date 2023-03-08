@@ -1,0 +1,34 @@
+{
+  "variantId": "umbrella_yukari",
+  "hullId": "umbrella_yukari",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 27,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "adaptive_coils",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "guardian",
+        "WS0002": "heavyburst",
+        "WS0003": "heavyburst",
+        "WS0004": "pdburst",
+        "WS0005": "pdburst",
+        "WS0006": "pdburst",
+        "WS0007": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "wasp_wing",
+    "dagger_wing"
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "hullName": "Yukari",
+  "hullId": "umbrella_yukari",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/yukari/yukari.png",
+  "style": "HIGH_TECH",
+  "height": 258,
+  "width": 350,
+  "center": [175, 129],
+  "collisionRadius": 180,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 180,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "ex_phase_coils"
+  ],
+  "builtInWings": [
+    "umbrella_ran_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [88, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 30,
+      "locations": [8, 83]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -30,
+      "locations": [8, -83]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 108,
+      "angle": 37.5,
+      "locations": [28, 33]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 108,
+      "angle": -37.5,
+      "locations": [28, -33]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 128,
+      "locations": [-30, 134]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -128,
+      "locations": [-30, -134]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-39.5, -0]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        56.5, -27.5,
+        56.5, 27.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        56, -27,
+        56, 28
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 67],
+      "length": 80,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, -67],
+      "length": 80,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, 55.5],
+      "length": 52,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, -55.5],
+      "length": 52,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, -171],
+      "length": 24,
+      "width": 5,
+      "angle": -125,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, 171],
+      "length": 24,
+      "width": 5,
+      "angle": 125,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-6, -141],
+      "length": 24,
+      "width": 5,
+      "angle": -105,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-6, 141],
+      "length": 24,
+      "width": 5,
+      "angle": 105,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -126, -38,
+    -84, -54,
+    -8, -54,
+    -8, -68,
+    -54, -162,
+    5, -126.5,
+    50, -37.5,
+    128, -0,
+    50, 37.5,
+    5, 126.5,
+    -54, 162,
+    -8, 68,
+    -8, 54,
+    -84, 54,
+    -126, 38
+  ]
+}
