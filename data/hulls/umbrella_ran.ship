@@ -1,0 +1,445 @@
+{
+  "hullName": "Ran",
+  "hullId": "umbrella_ran",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ran/ran.png",
+  "style": "HIGH_TECH",
+  "height": 221,
+  "width": 250,
+  "center": [125, 97],
+  "collisionRadius": 128,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 128,
+  "viewOffset": 0,
+  "builtInWings": [
+    "umbrella_chen_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [95, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [12, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 108,
+      "angle": 40,
+      "locations": [-14, 69]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 108,
+      "angle": -40,
+      "locations": [-14, -69]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-32, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-94, -0],
+      "length": 48,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-95, -8],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-95, 8],
+      "length": 32.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-77, -46.5],
+      "length": 36,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-77, 46.5],
+      "length": 36,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-63, -76],
+      "length": 32,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-63, 76],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-52, -104],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-52, 104],
+      "length": 32,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          255,
+          192,
+          64,
+          255
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 4,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 1
+      }
+    }
+  ],
+  "bounds": [
+    110.5, -9,
+    41.5, -35.5,
+    -36, -114,
+    -87, -16.5,
+    -87, 16.5,
+    -36, 114,
+    41.5, 35.5,
+    110.5, 9
+  ]
+}

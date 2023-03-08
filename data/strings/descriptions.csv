@@ -1,1 +1,3 @@
-umbrella_chen,SHIP,"Armed with four whole miniguns, the Chen-class superheavy combat drone is sure to bring pain where it doesn't belong.",,,,
+id,type,text1,text2,text3,text4,notes
+umbrella_chen,SHIP,"Armed with four whole miniguns, the Chen-class superheavy combat drone is sure to bring pain where it doesn't belong. The drone uses a unique, delta-class AI core, which is automatically recovered and put into a new drone on hull failure. That, along with the sheer logistical profile required to maintain a destroyer-sized hull, makes it extremely difficult to fit into any but the largest of carriers.",,,,
+umbrella_ran,SHIP,"The unique system of this drone allows it to deploy a single superheavy drone of its own. The drone uses a unique, beta-class AI core, and its support equipment allows recovery of every non-disposable part of it.",,,,

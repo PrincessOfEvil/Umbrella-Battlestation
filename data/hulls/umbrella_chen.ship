@@ -4,9 +4,9 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/chen/chen.png",
   "style": "HIGH_TECH",
-  "height": 440,
-  "width": 480,
-  "center": [240, 234],
+  "height": 125,
+  "width": 124,
+  "center": [62, 53],
   "collisionRadius": 72,
   "shieldCenter": [0, -0],
   "shieldRadius": 72,
@@ -22,7 +22,7 @@
       "mount": "HARDPOINT",
       "arc": 90,
       "angle": 30,
-      "locations": [27, 28]
+      "locations": [26, 28]
     },
     {
       "id": "WS0002",
@@ -31,7 +31,7 @@
       "mount": "HARDPOINT",
       "arc": 90,
       "angle": -30,
-      "locations": [27, -28]
+      "locations": [26, -28]
     },
     {
       "id": "WS0003",
@@ -40,7 +40,7 @@
       "mount": "HARDPOINT",
       "arc": 90,
       "angle": 30,
-      "locations": [-1, 42]
+      "locations": [-2, 42]
     },
     {
       "id": "WS0004",
@@ -49,7 +49,7 @@
       "mount": "HARDPOINT",
       "arc": 90,
       "angle": -30,
-      "locations": [-1, -42]
+      "locations": [-2, -42]
     }
   ],
   "engineSlots": [
@@ -87,11 +87,10 @@
     }
   ],
   "bounds": [
-    -46, 0,
-    -38, -61,
-    70, -8.5,
-    70, 8.5,
-    -38, 61,
-    -46, -0
+    -38.5, -61,
+    69.5, -8.5,
+    69.5, 8.5,
+    -38.5, 61,
+    -44.5, 0
   ]
 }

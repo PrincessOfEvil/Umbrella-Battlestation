@@ -1,0 +1,25 @@
+{
+  "variantId": "umbrella_ran",
+  "hullId": "umbrella_ran",
+  "displayName": "Recursive Drone Carrier",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma",
+        "WS0002": "plasma",
+        "WS0003": "heavyburst",
+        "WS0004": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
