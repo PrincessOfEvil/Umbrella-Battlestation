@@ -104,7 +104,6 @@ public class UmbrellaSafetyOverrides extends BaseHullMod {
 	public boolean isApplicableToShip(ShipAPI ship) {
 //		return !ship.getVariant().getHullMods().contains("unstable_injector") &&
 //			   !ship.getVariant().getHullMods().contains("augmented_engines");
-		if (ship.getVariant().getHullSize() == HullSize.CAPITAL_SHIP) return false;
 		if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) return false;
 		
 		
@@ -112,9 +111,6 @@ public class UmbrellaSafetyOverrides extends BaseHullMod {
 	}
 	
 	public String getUnapplicableReason(ShipAPI ship) {
-		if (ship.getVariant().getHullSize() == HullSize.CAPITAL_SHIP) {
-			return "Can not be installed on capital ships";
-		}
 		if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) {
 			return "Can not be installed on civilian ships";
 		}

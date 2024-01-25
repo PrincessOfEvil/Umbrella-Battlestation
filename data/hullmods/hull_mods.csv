@@ -1,8 +1,12 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Safety Overrides,umbrella_safetyoverrides,0,,,"special, engines, offensive, merc, no_build_in, no_drop, no_drop_salvage","Special, Engines",2500,,TRUE,,15,30,45,70,source.princess.hullmods.UmbrellaSafetyOverrides,"Disabling safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
+Safety Overrides,umbrella_safetyoverrides,0,,,"special, engines, offensive, no_build_in, no_drop, no_drop_salvage","Special, Engines",2500,,TRUE,,15,30,45,70,source.princess.hullmods.UmbrellaSafetyOverrides,"Disabling safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
 
 Reduces the peak performance time by a factor of %s, prevents the use of active venting, and drastically reduces weapon ranges past %s units.
 
 Can not be installed on civilian or capital ships.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/safety_overrides.png
+Rapid Phase Coils,umbrella_rapidphasecoils,2,,,"special, phase, no_build_in, no_drop, no_drop_salvage",Phase,5000,,TRUE,,15,30,45,70,source.princess.hullmods.RapidPhaseCoils,"Fine-tuned overrides of multiple phase coil safeties allow phase temporal effects to accelerate exhaust plumes beyond the normal effects.
 
+Increases speed while phased by %s. Phase slipping due to high flux is completely removed. Increases phase flux by %s.
+
+All crew, including officer staff and AI cores, is required to put on phase-shielded suits while phase coils are in use. No punishment for breaking this rule is required.","Massively increases speed while phased, at the cost of flux.",graphics/hullmods/augmented_drive_field.png
 ,,,,,,,,,,,,,,,,,,
