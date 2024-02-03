@@ -8,7 +8,7 @@
         "patch":"0"
     },
     "description":"Adds Yakumo.",
-    "gameVersion":"0.96a",
+    "gameVersion":"0.97a",
     "totalConversion":false,
     "dependencies": [
     ]
