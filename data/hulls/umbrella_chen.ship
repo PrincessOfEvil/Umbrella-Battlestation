@@ -1,96 +1,119 @@
 {
-  "hullName": "Chen",
-  "hullId": "umbrella_chen",
-  "hullSize": "FIGHTER",
-  "spriteName": "graphics/chen/chen.png",
-  "style": "HIGH_TECH",
-  "height": 125,
-  "width": 124,
-  "center": [62, 53],
-  "collisionRadius": 72,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 72,
-  "viewOffset": 0,
-  "builtInMods": [
-    "umbrella_safetyoverrides"
-  ],
-  "weaponSlots": [
-    {
-      "id": "WS0001",
-      "size": "MEDIUM",
-      "type": "HYBRID",
-      "mount": "HARDPOINT",
-      "arc": 90,
-      "angle": 30,
-      "locations": [26, 28]
-    },
-    {
-      "id": "WS0002",
-      "size": "MEDIUM",
-      "type": "HYBRID",
-      "mount": "HARDPOINT",
-      "arc": 90,
-      "angle": -30,
-      "locations": [26, -28]
-    },
-    {
-      "id": "WS0003",
-      "size": "MEDIUM",
-      "type": "HYBRID",
-      "mount": "HARDPOINT",
-      "arc": 90,
-      "angle": 30,
-      "locations": [-2, 42]
-    },
-    {
-      "id": "WS0004",
-      "size": "MEDIUM",
-      "type": "HYBRID",
-      "mount": "HARDPOINT",
-      "arc": 90,
-      "angle": -30,
-      "locations": [-2, -42]
-    }
-  ],
-  "engineSlots": [
-    {
-      "location": [-47, 41],
-      "length": 36,
-      "width": 12,
-      "angle": 180,
-      "contrailSize": 12,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [-47, -41],
-      "length": 36,
-      "width": 12,
-      "angle": -180,
-      "contrailSize": 12,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [-48, 30],
-      "length": 32,
-      "width": 10,
-      "angle": 180,
-      "contrailSize": 10,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [-48, -30],
-      "length": 32,
-      "width": 10,
-      "angle": -180,
-      "contrailSize": 10,
-      "style": "HIGH_TECH"
-    }
-  ],
-  "bounds": [
-    -38.5, -61,
-    69.5, -8.5,
-    69.5, 8.5,
-    -38.5, 61,
-    -44.5, 0
-  ]
+    "hullName": "Chen",
+    "hullId": "umbrella_chen",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/chen/chen.png",
+    "height": 125,
+    "width": 124,
+    "center": [
+        62, 53
+    ],
+    "collisionRadius": 72,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 72,
+    "viewOffset": 0,
+    "builtInMods": [
+        "umbrella_safetyoverrides"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS0001",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                      26,       28
+            ]
+        },
+        {
+            "id": "WS0002",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                      26,      -28
+            ]
+        },
+        {
+            "id": "WS0003",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                      -2,       42
+            ]
+        },
+        {
+            "id": "WS0004",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                      -2,      -42
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -47, 41
+            ],
+            "length": 36,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -47, -41
+            ],
+            "length": 36,
+            "width": 12,
+            "angle": -180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -48, 30
+            ],
+            "length": 32,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 10,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -48, -30
+            ],
+            "length": 32,
+            "width": 10,
+            "angle": -180,
+            "contrailSize": 10,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+           -38.5,      -61,
+            69.5,     -8.5,
+            69.5,      8.5,
+           -38.5,       61,
+           -44.5,        0
+    ]
 }
