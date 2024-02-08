@@ -7,7 +7,7 @@
 	"onHitEffect":"data.weapons.princess.DanmakuProjScript",
 	"length":60.0,
 	"width":25.0,
-	"fadeTime":0.25,
+	"fadeTime":0.05,
 	"fringeColor":[223,115,255,180],
 	"coreColor":[255,255,255,200],
 	"textureType":"SMOOTH",  # only needed for BEAM spawnType

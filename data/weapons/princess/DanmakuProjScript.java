@@ -20,7 +20,8 @@ public class DanmakuProjScript implements OnHitEffectPlugin
 	public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine)
 		{
 		// All hail Alex putting useful helper functions in random places.
-	//	if (RealityDisruptorChargeGlow.isProjectileExpired(projectile)) return;
+	//	if (RealityDisruptorChargeGlow.isProjectileExpired(projectile)) return; // It *is* expired!
+		if (projectile.getOwner() == target.getOwner()) return;
 		ShipAPI source = projectile.getSource();
 		if (source == null || source.isHulk()) return;
 		WeaponAPI weapon = projectile.getWeapon();
